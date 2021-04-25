@@ -1,0 +1,12 @@
+$(function(){
+    $("#add").on("click",function(){
+        //event handler
+        var val =$("input").val();
+        if(val !==''){
+            var elem =$('<li></li>').text(val);
+            $(elem).append('<button class="rem">X</button>');
+            $("#mylist").append(elem);
+            $('input').val('');//clear the input
+        }
+    });
+});
