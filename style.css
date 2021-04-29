@@ -17,6 +17,7 @@ h1{
 
  }
 li{
+
 list-style-type: none;
 text-align:left;
 background-color:#4eb9cd;
@@ -24,7 +25,7 @@ width:70%;
 height:30px;
 border:1px solid #444444;
 border-radius:3px;
-
+padding-bottom: 10;
 padding-top:1%;
 padding-left:2%;
 color:white;
@@ -32,10 +33,14 @@ color:white;
 
 }
 
+li:last-child{
+    margin-top:88%;
+    margin-left:88%;
 
+}
 
 button.rem{
-margin-bottom:2%;
+bottom: 0;
 margin-left:88%;
 color:red
 }
