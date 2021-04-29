@@ -22,6 +22,9 @@ $(function(){
         $(elem).append('<button class="rem">X</button>');
         $("ol").append(elem);
         $('input').val('');//clear the input
+        $('.rem').click(function(){
+          $(this).parent().remove();
+        })
       }
     });
  
